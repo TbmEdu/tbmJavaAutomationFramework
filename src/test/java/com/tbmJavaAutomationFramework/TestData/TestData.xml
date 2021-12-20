@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestModuleName>
+	<TC_AddNewCustomer_003>
+		<customerName>Asima</customerName>
+		<customerGender>female</customerGender>
+		<customerAddress>1055 Southern Artery</customerAddress>
+		<customerCity>Quincy</customerCity>
+		<customerState>Massachussets</customerState>
+		<customerPin>412845</customerPin>
+		<customerMobile>7816008547</customerMobile>
+		<customerPassword>abcd1234</customerPassword>
+	</TC_AddNewCustomer_003>
+	<TestCaseName_02>
+		<customerName>John</customerName>
+		<customerGender>female</customerGender>
+		<customerAddress>995 Southern Artery</customerAddress>
+		<customerCity>Boston</customerCity>
+		<customerState>Massachussets</customerState>
+		<customerPin>721148</customerPin>
+		<customerMobile>7816005247</customerMobile>
+		<customerPassword>abcd1234</customerPassword>
+	</TestCaseName_02>
+</TestModuleName>

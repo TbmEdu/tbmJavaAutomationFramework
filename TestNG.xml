@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="tbmJavaAutomationFramework">
+
+	<listeners>
+		<listener
+			class-name="com.tbmJavaAutomationFramework.Utilities.Reporting" />
+	</listeners>
+
+	<test name="Verifying the login in Chrome">
+		<parameter name="browser" value="chrome" />
+	<!-- 	<groups>
+			<run>
+				<include name="demo" />
+			</run>
+		</groups> -->
+		<classes>
+			<!-- <class
+				name="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003"> 
+				<methods>
+					<exclude name="writeCustomerId" />
+				</methods>
+			</class> 
+			 ><class
+				name="com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02" /> -->
+			<class
+				name="com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01" />
+		</classes>
+	</test>
+</suite>      
