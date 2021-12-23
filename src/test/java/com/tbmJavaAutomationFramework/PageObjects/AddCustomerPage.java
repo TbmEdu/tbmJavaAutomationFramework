@@ -72,7 +72,7 @@ public class AddCustomerPage {
 	@CacheLookup
 	WebElement txtMsg;
 	
-	@FindBy(xpath="//table/tbody/tr[4]/td[2]")
+	@FindBy(xpath="//*[@id=\"customer\"]/tbody/tr[4]/td[2]")
 	@CacheLookup
 	WebElement lblCustId;
 	
@@ -153,6 +153,7 @@ public class AddCustomerPage {
 	public String getCustId() {
 		String custId=lblCustId.getText();
 		return custId;
+		
 	}
 
 	

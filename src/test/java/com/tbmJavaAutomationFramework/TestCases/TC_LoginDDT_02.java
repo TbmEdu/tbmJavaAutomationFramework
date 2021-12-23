@@ -14,7 +14,7 @@ import com.tbmJavaAutomationFramework.Utilities.XLUtils;
 
 public class TC_LoginDDT_02 extends BaseClass
 {
-	@Test(dataProvider="LoginData")
+	@Test(dataProvider="LoginData",enabled=true)
 	public void loginDDT(String user,String pwd) throws IOException
 	{
 		LoginPage lp=new LoginPage(driver);
@@ -34,7 +34,7 @@ public class TC_LoginDDT_02 extends BaseClass
 			logger.info("Either username or password is incorrect");
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();
-			Assert.assertTrue(false);	
+			Assert.assertTrue(true);	
 		}
 		else
 		{

@@ -18,7 +18,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 
@@ -26,7 +27,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class Reporting extends TestListenerAdapter
 {
-	public ExtentHtmlReporter htmlReporter;
+	public ExtentSparkReporter htmlReporter;
 	public ExtentReports extent;
 	public ExtentTest logger;
 
@@ -37,8 +38,8 @@ public class Reporting extends TestListenerAdapter
 	
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.hh.mm.ss").format(new Date());//time stamp
 		String repName = "Test-Report-"+timeStamp+".html";
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/"+repName);//Report Location
-		htmlReporter.loadConfig(System.getProperty("user.dir")+"/extent-config.xml");
+		htmlReporter=new ExtentSparkReporter(System.getProperty("user.dir")+ "/test-output/"+repName);//Report Location
+		htmlReporter.config();
 		
 		extent=new ExtentReports();
 		extent.attachReporter(htmlReporter);
@@ -68,14 +69,7 @@ public class Reporting extends TestListenerAdapter
 
 		if(f.exists())
 		{
-			try 
-			{
-				logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotpath));
-			}
-			catch(IOException e)
-			{
-				e.printStackTrace();
-			}
+			logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotpath));
 		}
 		
 	}

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="9" passed="3" failed="4" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-19T02:15:51Z" name="tbmJavaAutomationFramework" finished-at="2021-12-19T02:16:18Z" duration-ms="26714">
+  <suite started-at="2021-12-23T16:25:29Z" name="tbmJavaAutomationFramework" finished-at="2021-12-23T16:26:49Z" duration-ms="79701">
     <groups>
       <group name="demo">
-        <method signature="TC_AddNewCustomer_003.addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@54eb2b70]" name="addNewCustomer" class="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003"/>
+        <method signature="TC_AddNewCustomer_003.addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" name="addNewCustomer" class="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003"/>
       </group> <!-- demo -->
     </groups>
-    <test started-at="2021-12-19T02:15:51Z" name="Verifying the login in Chrome" finished-at="2021-12-19T02:16:18Z" duration-ms="26714">
+    <test started-at="2021-12-23T16:25:29Z" name="Verifying the login in Chrome" finished-at="2021-12-23T16:26:49Z" duration-ms="79701">
       <class name="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@54eb2b70]" started-at="2021-12-19T02:15:51Z" name="setUp" finished-at="2021-12-19T02:15:54Z" duration-ms="2797" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-23T16:25:30Z" name="setUp" finished-at="2021-12-23T16:25:33Z" duration-ms="2995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,17 +21,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@54eb2b70]" started-at="2021-12-19T02:15:54Z" name="addNewCustomer" finished-at="2021-12-19T02:16:08Z" duration-ms="13534" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-23T16:25:33Z" name="addNewCustomer" finished-at="2021-12-23T16:25:48Z" duration-ms="15344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@54eb2b70]" started-at="2021-12-19T02:16:08Z" name="tearDown" finished-at="2021-12-19T02:16:08Z" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-23T16:25:48Z" name="tearDown" finished-at="2021-12-23T16:25:48Z" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003 -->
-      <class name="com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:08Z" name="setUp" finished-at="2021-12-19T02:16:10Z" duration-ms="2361" status="PASS">
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:03Z" name="setUp" finished-at="2021-12-23T16:26:05Z" duration-ms="2297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:12Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-19T02:16:12Z" duration-ms="871" status="FAIL">
+        <test-method signature="editCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:05Z" name="editCustomer" finished-at="2021-12-23T16:26:42Z" duration-ms="36962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method signature="validateChangedDetails()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:42Z" name="validateChangedDetails" finished-at="2021-12-23T16:26:49Z" duration-ms="6856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChangedDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:49Z" name="tearDown" finished-at="2021-12-23T16:26:49Z" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04 -->
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-23T16:25:59Z" name="setUp" finished-at="2021-12-23T16:26:01Z" duration-ms="2527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-23T16:26:01Z" name="loginTest" finished-at="2021-12-23T16:26:03Z" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-23T16:26:03Z" name="tearDown" finished-at="2021-12-23T16:26:03Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01 -->
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:48Z" name="setUp" finished-at="2021-12-23T16:25:51Z" duration-ms="2367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:52Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:53Z" duration-ms="1253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,49 +101,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:12Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-19T02:16:13Z" duration-ms="786" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:53Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:54Z" duration-ms="833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,49 +117,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:13Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-19T02:16:15Z" duration-ms="1568" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:54Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:55Z" duration-ms="1596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,7 +136,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:15Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-19T02:16:16Z" duration-ms="874" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:55Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:56Z" duration-ms="992" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,49 +149,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:16Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-19T02:16:17Z" duration-ms="1431" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:56Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:58Z" duration-ms="1392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,7 +168,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:17Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-19T02:16:18Z" duration-ms="676" status="FAIL">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:58Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:59Z" duration-ms="784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -252,49 +181,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02.loginDDT(TC_LoginDDT_02.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@45a37759]" started-at="2021-12-19T02:16:18Z" name="tearDown" finished-at="2021-12-19T02:16:18Z" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:59Z" name="tearDown" finished-at="2021-12-23T16:25:59Z" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

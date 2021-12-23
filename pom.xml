@@ -13,7 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-<!-- this <build> for running the textNG.xml from pom.xml file -->
+	<!-- this <build> for running the textNG.xml from pom.xml file -->
 	<build>
 		<plugins>
 			<plugin>
@@ -76,11 +76,12 @@
 			<version>4.1.2</version>
 		</dependency>
 
+
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>4.0.9</version>
+			<version>5.0.9</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->

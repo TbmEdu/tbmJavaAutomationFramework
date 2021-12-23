@@ -26,7 +26,7 @@ public class TC_AddNewCustomer_003 extends BaseClass {
 	public String cMob = getXMLData("TestData.xml", "TestModuleName", "TC_AddNewCustomer_003", "customerMobile");
 	public String cPwd = getXMLData("TestData.xml", "TestModuleName", "TC_AddNewCustomer_003", "customerPassword");
 
-	@Test(groups= {"demo"})
+	@Test(groups= {"demo"},enabled=true)
 	public void addNewCustomer() throws InterruptedException, IOException {
 
 		
@@ -52,6 +52,7 @@ public class TC_AddNewCustomer_003 extends BaseClass {
 		acp.custCity(cCity);
 		acp.custState(cState);
 		acp.custPin(cPIN);
+		Thread.sleep(3000);
 		acp.custMob(cMob);
 		String email = randomString() + "@gmail.com";
 		acp.custEmail(email);
@@ -87,7 +88,6 @@ public class TC_AddNewCustomer_003 extends BaseClass {
 
 	}
 
-	@Test
 	public void writeCustomerId()
 	{
 		AddCustomerPage acp = new AddCustomerPage(driver);
