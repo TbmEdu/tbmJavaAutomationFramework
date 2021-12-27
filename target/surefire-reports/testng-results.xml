@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-27T17:21:24Z" name="tbmJavaAutomationFramework" finished-at="2021-12-27T17:22:45Z" duration-ms="81450">
+    <groups>
+      <group name="demo">
+        <method signature="TC_AddNewCustomer_003.addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@687e99d8]" name="addNewCustomer" class="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003"/>
+      </group> <!-- demo -->
+    </groups>
+    <test started-at="2021-12-27T17:21:24Z" name="Verifying the login in Chrome" finished-at="2021-12-27T17:22:45Z" duration-ms="81450">
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@687e99d8]" started-at="2021-12-27T17:21:24Z" name="setUp" finished-at="2021-12-27T17:21:27Z" duration-ms="3119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@687e99d8]" started-at="2021-12-27T17:21:27Z" name="addNewCustomer" finished-at="2021-12-27T17:21:43Z" duration-ms="16295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@687e99d8]" started-at="2021-12-27T17:21:43Z" name="tearDown" finished-at="2021-12-27T17:21:43Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003 -->
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@c86b9e3]" started-at="2021-12-27T17:21:58Z" name="setUp" finished-at="2021-12-27T17:22:01Z" duration-ms="2166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@c86b9e3]" started-at="2021-12-27T17:22:01Z" name="editCustomer" finished-at="2021-12-27T17:22:38Z" duration-ms="37335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method signature="validateChangedDetails()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@c86b9e3]" started-at="2021-12-27T17:22:38Z" name="validateChangedDetails" finished-at="2021-12-27T17:22:45Z" duration-ms="6924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateChangedDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@c86b9e3]" started-at="2021-12-27T17:22:45Z" name="tearDown" finished-at="2021-12-27T17:22:45Z" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04 -->
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@6aaceffd]" started-at="2021-12-27T17:21:55Z" name="setUp" finished-at="2021-12-27T17:21:57Z" duration-ms="2231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@6aaceffd]" started-at="2021-12-27T17:21:57Z" name="loginTest" finished-at="2021-12-27T17:21:58Z" duration-ms="1412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@6aaceffd]" started-at="2021-12-27T17:21:58Z" name="tearDown" finished-at="2021-12-27T17:21:58Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01 -->
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:43Z" name="setUp" finished-at="2021-12-27T17:21:46Z" duration-ms="2169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:47Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T17:21:48Z" duration-ms="1032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[timirte6346]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[darfautyt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:48Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T17:21:49Z" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr249318]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nAmyhYv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:49Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T17:21:51Z" duration-ms="1711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr47659]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:51Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T17:21:52Z" duration-ms="984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr249877]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nYtyvUr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:52Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T17:21:53Z" duration-ms="1639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr47659]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:53Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T17:21:54Z" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr258123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sepUpEq]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@e4487af]" started-at="2021-12-27T17:21:54Z" name="tearDown" finished-at="2021-12-27T17:21:55Z" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02 -->
+    </test> <!-- Verifying the login in Chrome -->
+  </suite> <!-- tbmJavaAutomationFramework -->
+</testng-results>
