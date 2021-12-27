@@ -14,6 +14,14 @@
           <include name="addNewCustomer"/>
         </methods>
       </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003 -->
+      <class name="com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04">
+        <methods>
+          <include name="validateChangedDetails"/>
+          <include name="editCustomer"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04 -->
     </classes>
   </test> <!-- Verifying the login in Chrome(failed) -->
 </suite> <!-- Failed suite [tbmJavaAutomationFramework] -->

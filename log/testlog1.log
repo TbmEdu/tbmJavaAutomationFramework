@@ -2498,3 +2498,134 @@
 2021-12-23 11:26:49,373 [main] INFO tbmJaveAutomationFramework - Current address is: 100 Mediterranean Dr
 2021-12-23 11:26:49,393 [main] INFO tbmJaveAutomationFramework - Customer mobile number has been changed successfully !
 2021-12-23 11:26:49,399 [main] INFO tbmJaveAutomationFramework - Current Phone number is: 7817123600
+2021-12-27 10:25:59,820 [main] INFO tbmJaveAutomationFramework - Step 1: User name mngr47659 has been entered
+2021-12-27 10:26:00,015 [main] INFO tbmJaveAutomationFramework - Step 2: Password has been entered
+2021-12-27 10:26:03,753 [main] INFO tbmJaveAutomationFramework - Step 3: Add customer link is clicked
+2021-12-27 10:26:13,209 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 10:26:13,306 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 10:26:13,487 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 10:26:13,499 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 10:26:14,107 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 10:26:14,860 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 10:26:15,286 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 10:26:15,293 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 10:26:16,182 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 10:26:16,241 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 10:26:16,910 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 10:26:16,915 [main] INFO tbmJaveAutomationFramework - successfully logged in
+2021-12-27 10:26:17,144 [main] INFO tbmJaveAutomationFramework - Clicked on logout button
+2021-12-27 10:26:17,644 [main] INFO tbmJaveAutomationFramework - Came back to Login page
+2021-12-27 10:26:17,805 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 10:26:17,902 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 10:26:18,078 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 10:26:18,092 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 10:26:18,671 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 10:26:18,728 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 10:26:19,315 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 10:26:19,321 [main] INFO tbmJaveAutomationFramework - successfully logged in
+2021-12-27 10:26:19,929 [main] INFO tbmJaveAutomationFramework - Clicked on logout button
+2021-12-27 10:26:20,540 [main] INFO tbmJaveAutomationFramework - Came back to Login page
+2021-12-27 10:26:20,711 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 10:26:20,773 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 10:26:21,042 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 10:26:21,051 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 10:26:25,062 [main] INFO tbmJaveAutomationFramework - URL is opened
+2021-12-27 10:26:25,153 [main] INFO tbmJaveAutomationFramework - Entered user name
+2021-12-27 10:26:25,231 [main] INFO tbmJaveAutomationFramework - Entered the password
+2021-12-27 10:26:26,395 [main] INFO tbmJaveAutomationFramework - Singin button is clicked
+2021-12-27 10:26:26,408 [main] INFO tbmJaveAutomationFramework - The test case has been passed
+2021-12-27 10:26:29,437 [main] INFO tbmJaveAutomationFramework - Step 1: User name mngr47659 has been entered
+2021-12-27 10:26:29,551 [main] INFO tbmJaveAutomationFramework - Step 2: Password has been entered
+2021-12-27 10:26:38,970 [main] INFO tbmJaveAutomationFramework - Edit customer link is clicked !
+2021-12-27 11:39:08,642 [main] INFO tbmJaveAutomationFramework - Step 1: User name mngr47659 has been entered
+2021-12-27 11:39:08,801 [main] INFO tbmJaveAutomationFramework - Step 2: Password has been entered
+2021-12-27 11:39:12,616 [main] INFO tbmJaveAutomationFramework - Step 3: Add customer link is clicked
+2021-12-27 11:39:20,329 [main] INFO tbmJaveAutomationFramework - Entered all information of the new customer
+2021-12-27 11:39:23,859 [main] INFO tbmJaveAutomationFramework - New customer data has been submitted
+2021-12-27 11:39:23,895 [main] INFO tbmJaveAutomationFramework - The new customer data has been submitted successfully and Id is:61635
+2021-12-27 11:39:31,037 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:39:31,103 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:39:31,361 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:39:31,369 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:39:31,917 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:39:31,965 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:39:32,235 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:39:32,239 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:39:32,945 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:39:32,993 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:39:33,537 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:39:33,542 [main] INFO tbmJaveAutomationFramework - successfully logged in
+2021-12-27 11:39:33,849 [main] INFO tbmJaveAutomationFramework - Clicked on logout button
+2021-12-27 11:39:34,312 [main] INFO tbmJaveAutomationFramework - Came back to Login page
+2021-12-27 11:39:34,422 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:39:34,476 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:39:34,643 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:39:34,650 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:39:35,202 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:39:35,291 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:39:35,935 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:39:35,939 [main] INFO tbmJaveAutomationFramework - successfully logged in
+2021-12-27 11:39:36,159 [main] INFO tbmJaveAutomationFramework - Clicked on logout button
+2021-12-27 11:39:36,588 [main] INFO tbmJaveAutomationFramework - Came back to Login page
+2021-12-27 11:39:36,690 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:39:36,746 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:39:36,900 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:39:36,904 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:39:40,479 [main] INFO tbmJaveAutomationFramework - URL is opened
+2021-12-27 11:39:40,551 [main] INFO tbmJaveAutomationFramework - Entered user name
+2021-12-27 11:39:40,615 [main] INFO tbmJaveAutomationFramework - Entered the password
+2021-12-27 11:39:41,208 [main] INFO tbmJaveAutomationFramework - Singin button is clicked
+2021-12-27 11:39:41,216 [main] INFO tbmJaveAutomationFramework - The test case has been passed
+2021-12-27 11:39:43,617 [main] INFO tbmJaveAutomationFramework - Step 1: User name mngr47659 has been entered
+2021-12-27 11:39:43,679 [main] INFO tbmJaveAutomationFramework - Step 2: Password has been entered
+2021-12-27 11:39:52,438 [main] INFO tbmJaveAutomationFramework - Edit customer link is clicked !
+2021-12-27 11:39:55,534 [main] INFO tbmJaveAutomationFramework - Entered the customer id:80351
+2021-12-27 11:40:08,154 [main] INFO tbmJaveAutomationFramework - Changed the street address to 100 Mediterranean Dr
+2021-12-27 11:40:11,324 [main] INFO tbmJaveAutomationFramework - Customer mobile number has been changed to 7817123600
+2021-12-27 11:40:14,539 [main] INFO tbmJaveAutomationFramework - Clicked the submit button
+2021-12-27 11:40:17,564 [main] INFO tbmJaveAutomationFramework - Popup is taken care
+2021-12-27 11:40:23,953 [main] INFO tbmJaveAutomationFramework - Entered the customer id:80351
+2021-12-27 11:40:27,345 [main] INFO tbmJaveAutomationFramework - Control is on customer details page
+2021-12-27 11:40:27,371 [main] INFO tbmJaveAutomationFramework - Street address has been changed successfully !
+2021-12-27 11:40:27,377 [main] INFO tbmJaveAutomationFramework - Current address is: 100 Mediterranean Dr
+2021-12-27 11:40:27,503 [main] INFO tbmJaveAutomationFramework - Customer mobile number has been changed successfully !
+2021-12-27 11:40:27,511 [main] INFO tbmJaveAutomationFramework - Current Phone number is: 7817123600
+2021-12-27 11:48:43,205 [main] INFO tbmJaveAutomationFramework - Step 1: User name mngr47659 has been entered
+2021-12-27 11:48:43,368 [main] INFO tbmJaveAutomationFramework - Step 2: Password has been entered
+2021-12-27 11:48:47,192 [main] INFO tbmJaveAutomationFramework - Step 3: Add customer link is clicked
+2021-12-27 11:48:56,201 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:48:56,275 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:48:56,438 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:48:56,446 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:48:57,076 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:48:57,208 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:48:57,371 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:48:57,376 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:48:57,975 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:48:58,109 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:48:58,721 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:48:58,726 [main] INFO tbmJaveAutomationFramework - successfully logged in
+2021-12-27 11:48:59,005 [main] INFO tbmJaveAutomationFramework - Clicked on logout button
+2021-12-27 11:48:59,619 [main] INFO tbmJaveAutomationFramework - Came back to Login page
+2021-12-27 11:48:59,760 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:48:59,820 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:48:59,986 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:48:59,992 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:49:00,485 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:49:00,579 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:49:01,121 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:49:01,126 [main] INFO tbmJaveAutomationFramework - successfully logged in
+2021-12-27 11:49:01,347 [main] INFO tbmJaveAutomationFramework - Clicked on logout button
+2021-12-27 11:49:01,850 [main] INFO tbmJaveAutomationFramework - Came back to Login page
+2021-12-27 11:49:01,920 [main] INFO tbmJaveAutomationFramework - User name has been entered
+2021-12-27 11:49:02,036 [main] INFO tbmJaveAutomationFramework - Password has been entered
+2021-12-27 11:49:02,300 [main] INFO tbmJaveAutomationFramework - Submit button is clicked!
+2021-12-27 11:49:02,304 [main] INFO tbmJaveAutomationFramework - Either username or password is incorrect
+2021-12-27 11:49:05,964 [main] INFO tbmJaveAutomationFramework - URL is opened
+2021-12-27 11:49:06,036 [main] INFO tbmJaveAutomationFramework - Entered user name
+2021-12-27 11:49:06,100 [main] INFO tbmJaveAutomationFramework - Entered the password
+2021-12-27 11:49:06,315 [main] INFO tbmJaveAutomationFramework - Singin button is clicked
+2021-12-27 11:49:06,475 [main] INFO tbmJaveAutomationFramework - The test case has been passed
+2021-12-27 11:49:08,944 [main] INFO tbmJaveAutomationFramework - Step 1: User name mngr47659 has been entered
+2021-12-27 11:49:09,022 [main] INFO tbmJaveAutomationFramework - Step 2: Password has been entered
+2021-12-27 11:49:17,907 [main] INFO tbmJaveAutomationFramework - Edit customer link is clicked !

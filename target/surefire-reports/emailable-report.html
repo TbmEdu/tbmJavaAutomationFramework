@@ -9,10 +9,86 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">tbmJavaAutomationFramework</th></tr>
-<tr><td><a href="#t0">Verifying the login in Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">5,676</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Verifying the login in Chrome</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">3</td><td class="num">52,298</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">tbmJavaAutomationFramework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Verifying the login in Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1640009267267</td><td rowspan="1">1490</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">tbmJavaAutomationFramework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Verifying the login in Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003</td><td><a href="#m0">addNewCustomer</a></td><td rowspan="1">1640623723053</td><td rowspan="1">9249</td></tr><tr class="failedodd"><td rowspan="2">com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04</td><td><a href="#m1">editCustomer</a></td><td rowspan="1">1640623748802</td><td rowspan="1">22151</td></tr><tr class="failedodd"><td><a href="#m2">validateChangedDetails</a></td><td rowspan="1">1640623770954</td><td rowspan="1">1077</td></tr><tr><th colspan="4">Verifying the login in Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02</td><td><a href="#m3">loginDDT</a></td><td rowspan="6">1640623740420</td><td rowspan="6">1431</td></tr><tr class="passedeven"><td><a href="#m4">loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m5">loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m6">loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m7">loginDDT</a></td></tr><tr class="passedeven"><td><a href="#m8">loginDDT</a></td></tr><tr class="passedodd"><td rowspan="1">com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01</td><td><a href="#m9">loginTest</a></td><td rowspan="1">1640623745360</td><td rowspan="1">1115</td></tr></tbody>
 </table>
-<h2>Verifying the login in Chrome</h2><h3 id="m0">com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Verifying the login in Chrome</h2><h3 id="m0">com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003#addNewCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;name&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TBM-AIO&apos;, ip: &apos;192.168.0.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\timir\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b3057ffd89909ceb507e84c368e1fe2
+*** Element info: {Using=name, value=name}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+	at com.tbmJavaAutomationFramework.PageObjects.AddCustomerPage.custName(AddCustomerPage.java:89)
+	at com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003.addNewCustomer(TC_AddNewCustomer_003.java:45)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04#editCustomer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;cusid&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TBM-AIO&apos;, ip: &apos;192.168.0.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\timir\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80e884862b8fed8ae304720f9094e849
+*** Element info: {Using=xpath, value=//input[@name=&apos;cusid&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.tbmJavaAutomationFramework.PageObjects.EditCustomerPage.enterCustId(EditCustomerPage.java:80)
+	at com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04.editCustomer(TC_EditCustomerDetails_04.java:41)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04#validateChangedDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;EditCustomer.php&quot;&gt;...&lt;/a&gt; is not clickable at point (120, 384). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://217d9b1a57b6b33f66115334e1e768b2.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html&quot; id=&quot;google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;&quot; height=&quot;&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; data-load-complete=&quot;true&quot; style=&quot;border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=96.0.4664.110)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TBM-AIO&apos;, ip: &apos;192.168.0.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\timir\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59268}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80e884862b8fed8ae304720f9094e849
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at com.tbmJavaAutomationFramework.PageObjects.EditCustomerPage.editCustomer(EditCustomerPage.java:75)
+	at com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04.validateChangedDetails(TC_EditCustomerDetails_04.java:84)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr47659</td><td>1@</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr258123</td><td>sepUpEq</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr249877</td><td>nYtyvUr</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>timirte6346</td><td>darfautyt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr249318</td><td>nAmyhYv</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr47659</td><td>1@</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-23T16:25:29Z" name="tbmJavaAutomationFramework" finished-at="2021-12-23T16:26:49Z" duration-ms="79701">
+  <suite started-at="2021-12-27T16:39:04Z" name="tbmJavaAutomationFramework" finished-at="2021-12-27T16:40:27Z" duration-ms="83329">
     <groups>
       <group name="demo">
         <method signature="TC_AddNewCustomer_003.addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" name="addNewCustomer" class="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003"/>
       </group> <!-- demo -->
     </groups>
-    <test started-at="2021-12-23T16:25:29Z" name="Verifying the login in Chrome" finished-at="2021-12-23T16:26:49Z" duration-ms="79701">
+    <test started-at="2021-12-27T16:39:04Z" name="Verifying the login in Chrome" finished-at="2021-12-27T16:40:27Z" duration-ms="83329">
       <class name="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-23T16:25:30Z" name="setUp" finished-at="2021-12-23T16:25:33Z" duration-ms="2995" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-27T16:39:04Z" name="setUp" finished-at="2021-12-27T16:39:08Z" duration-ms="3786" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,17 +21,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-23T16:25:33Z" name="addNewCustomer" finished-at="2021-12-23T16:25:48Z" duration-ms="15344" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-27T16:39:08Z" name="addNewCustomer" finished-at="2021-12-27T16:39:23Z" duration-ms="15400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-23T16:25:48Z" name="tearDown" finished-at="2021-12-23T16:25:48Z" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003@44d52de2]" started-at="2021-12-27T16:39:23Z" name="tearDown" finished-at="2021-12-27T16:39:24Z" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003 -->
       <class name="com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:03Z" name="setUp" finished-at="2021-12-23T16:26:05Z" duration-ms="2297" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-27T16:39:41Z" name="setUp" finished-at="2021-12-27T16:39:43Z" duration-ms="2128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,21 +42,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:05Z" name="editCustomer" finished-at="2021-12-23T16:26:42Z" duration-ms="36962" status="PASS">
+        <test-method signature="editCustomer()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-27T16:39:43Z" name="editCustomer" finished-at="2021-12-27T16:40:20Z" duration-ms="37061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editCustomer -->
-        <test-method signature="validateChangedDetails()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:42Z" name="validateChangedDetails" finished-at="2021-12-23T16:26:49Z" duration-ms="6856" status="PASS">
+        <test-method signature="validateChangedDetails()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-27T16:40:20Z" name="validateChangedDetails" finished-at="2021-12-27T16:40:27Z" duration-ms="6932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateChangedDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-23T16:26:49Z" name="tearDown" finished-at="2021-12-23T16:26:49Z" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04@1e44b638]" started-at="2021-12-27T16:40:27Z" name="tearDown" finished-at="2021-12-27T16:40:27Z" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04 -->
       <class name="com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-23T16:25:59Z" name="setUp" finished-at="2021-12-23T16:26:01Z" duration-ms="2527" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-27T16:39:37Z" name="setUp" finished-at="2021-12-27T16:39:39Z" duration-ms="2441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,17 +67,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-23T16:26:01Z" name="loginTest" finished-at="2021-12-23T16:26:03Z" duration-ms="1362" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-27T16:39:39Z" name="loginTest" finished-at="2021-12-27T16:39:41Z" duration-ms="1294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-23T16:26:03Z" name="tearDown" finished-at="2021-12-23T16:26:03Z" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01@38604b81]" started-at="2021-12-27T16:39:41Z" name="tearDown" finished-at="2021-12-27T16:39:41Z" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01 -->
       <class name="com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:48Z" name="setUp" finished-at="2021-12-23T16:25:51Z" duration-ms="2367" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:24Z" name="setUp" finished-at="2021-12-27T16:39:26Z" duration-ms="2277" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:52Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:53Z" duration-ms="1253" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:30Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T16:39:31Z" duration-ms="917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:53Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:54Z" duration-ms="833" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:31Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T16:39:32Z" duration-ms="967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:54Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:55Z" duration-ms="1596" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:32Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T16:39:34Z" duration-ms="1484" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:55Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:56Z" duration-ms="992" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:34Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T16:39:35Z" duration-ms="829" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:56Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:58Z" duration-ms="1392" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:35Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T16:39:36Z" duration-ms="1444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -168,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:58Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-23T16:25:59Z" duration-ms="784" status="PASS">
+        <test-method signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:36Z" name="loginDDT" data-provider="LoginData" finished-at="2021-12-27T16:39:37Z" duration-ms="695" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,7 +184,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-23T16:25:59Z" name="tearDown" finished-at="2021-12-23T16:25:59Z" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02@95e33cc]" started-at="2021-12-27T16:39:37Z" name="tearDown" finished-at="2021-12-27T16:39:37Z" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
