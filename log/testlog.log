@@ -2629,3 +2629,56 @@
 2021-12-27 11:49:08,944 - tbmJaveAutomationFramework -INFO - Step 1: User name mngr47659 has been entered
 2021-12-27 11:49:09,022 - tbmJaveAutomationFramework -INFO - Step 2: Password has been entered
 2021-12-27 11:49:17,907 - tbmJaveAutomationFramework -INFO - Edit customer link is clicked !
+2021-12-27 12:13:23,851 - tbmJaveAutomationFramework -INFO - Step 1: User name mngr47659 has been entered
+2021-12-27 12:13:23,961 - tbmJaveAutomationFramework -INFO - Step 2: Password has been entered
+2021-12-27 12:13:27,711 - tbmJaveAutomationFramework -INFO - Step 3: Add customer link is clicked
+2021-12-27 12:13:36,671 - tbmJaveAutomationFramework -INFO - Entered all information of the new customer
+2021-12-27 12:13:40,240 - tbmJaveAutomationFramework -INFO - New customer data has been submitted
+2021-12-27 12:13:40,279 - tbmJaveAutomationFramework -INFO - The new customer data has been submitted successfully and Id is:85903
+2021-12-27 12:13:44,141 - tbmJaveAutomationFramework -INFO - User name has been entered
+2021-12-27 12:13:44,212 - tbmJaveAutomationFramework -INFO - Password has been entered
+2021-12-27 12:13:44,386 - tbmJaveAutomationFramework -INFO - Submit button is clicked!
+2021-12-27 12:13:44,391 - tbmJaveAutomationFramework -INFO - Either username or password is incorrect
+2021-12-27 12:13:44,998 - tbmJaveAutomationFramework -INFO - User name has been entered
+2021-12-27 12:13:45,085 - tbmJaveAutomationFramework -INFO - Password has been entered
+2021-12-27 12:13:45,243 - tbmJaveAutomationFramework -INFO - Submit button is clicked!
+2021-12-27 12:13:45,250 - tbmJaveAutomationFramework -INFO - Either username or password is incorrect
+2021-12-27 12:13:45,903 - tbmJaveAutomationFramework -INFO - User name has been entered
+2021-12-27 12:13:45,955 - tbmJaveAutomationFramework -INFO - Password has been entered
+2021-12-27 12:13:46,130 - tbmJaveAutomationFramework -INFO - Submit button is clicked!
+2021-12-27 12:13:46,289 - tbmJaveAutomationFramework -INFO - successfully logged in
+2021-12-27 12:13:46,735 - tbmJaveAutomationFramework -INFO - Clicked on logout button
+2021-12-27 12:13:47,134 - tbmJaveAutomationFramework -INFO - Came back to Login page
+2021-12-27 12:13:47,255 - tbmJaveAutomationFramework -INFO - User name has been entered
+2021-12-27 12:13:47,316 - tbmJaveAutomationFramework -INFO - Password has been entered
+2021-12-27 12:13:47,474 - tbmJaveAutomationFramework -INFO - Submit button is clicked!
+2021-12-27 12:13:47,483 - tbmJaveAutomationFramework -INFO - Either username or password is incorrect
+2021-12-27 12:13:48,046 - tbmJaveAutomationFramework -INFO - User name has been entered
+2021-12-27 12:13:48,173 - tbmJaveAutomationFramework -INFO - Password has been entered
+2021-12-27 12:13:48,778 - tbmJaveAutomationFramework -INFO - Submit button is clicked!
+2021-12-27 12:13:48,782 - tbmJaveAutomationFramework -INFO - successfully logged in
+2021-12-27 12:13:49,049 - tbmJaveAutomationFramework -INFO - Clicked on logout button
+2021-12-27 12:13:49,637 - tbmJaveAutomationFramework -INFO - Came back to Login page
+2021-12-27 12:13:49,751 - tbmJaveAutomationFramework -INFO - User name has been entered
+2021-12-27 12:13:49,883 - tbmJaveAutomationFramework -INFO - Password has been entered
+2021-12-27 12:13:50,239 - tbmJaveAutomationFramework -INFO - Submit button is clicked!
+2021-12-27 12:13:50,247 - tbmJaveAutomationFramework -INFO - Either username or password is incorrect
+2021-12-27 12:13:53,901 - tbmJaveAutomationFramework -INFO - URL is opened
+2021-12-27 12:13:53,970 - tbmJaveAutomationFramework -INFO - Entered user name
+2021-12-27 12:13:54,032 - tbmJaveAutomationFramework -INFO - Entered the password
+2021-12-27 12:13:54,646 - tbmJaveAutomationFramework -INFO - Singin button is clicked
+2021-12-27 12:13:54,650 - tbmJaveAutomationFramework -INFO - The test case has been passed
+2021-12-27 12:13:57,218 - tbmJaveAutomationFramework -INFO - Step 1: User name mngr47659 has been entered
+2021-12-27 12:13:57,358 - tbmJaveAutomationFramework -INFO - Step 2: Password has been entered
+2021-12-27 12:14:06,200 - tbmJaveAutomationFramework -INFO - Edit customer link is clicked !
+2021-12-27 12:14:09,285 - tbmJaveAutomationFramework -INFO - Entered the customer id:80351
+2021-12-27 12:14:21,932 - tbmJaveAutomationFramework -INFO - Changed the street address to 100 Mediterranean Dr
+2021-12-27 12:14:25,065 - tbmJaveAutomationFramework -INFO - Customer mobile number has been changed to 7817123600
+2021-12-27 12:14:28,235 - tbmJaveAutomationFramework -INFO - Clicked the submit button
+2021-12-27 12:14:31,261 - tbmJaveAutomationFramework -INFO - Popup is taken care
+2021-12-27 12:14:37,652 - tbmJaveAutomationFramework -INFO - Entered the customer id:80351
+2021-12-27 12:14:41,021 - tbmJaveAutomationFramework -INFO - Control is on customer details page
+2021-12-27 12:14:41,044 - tbmJaveAutomationFramework -INFO - Street address has been changed successfully !
+2021-12-27 12:14:41,051 - tbmJaveAutomationFramework -INFO - Current address is: 100 Mediterranean Dr
+2021-12-27 12:14:41,070 - tbmJaveAutomationFramework -INFO - Customer mobile number has been changed successfully !
+2021-12-27 12:14:41,188 - tbmJaveAutomationFramework -INFO - Current Phone number is: 7817123600

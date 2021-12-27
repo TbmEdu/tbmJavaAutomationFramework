@@ -149,20 +149,12 @@
 			<artifactId>maven-dependency-plugin</artifactId>
 			<version>3.1.1</version>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/com.github.vsspt/excel-exporter -->
 		<dependency>
 			<groupId>com.github.vsspt</groupId>
 			<artifactId>excel-exporter</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.github.vsspt/excel-exporter 
-		<dependency>
-			<groupId>com.github.vsspt</groupId>
-			<artifactId>excel-exporter</artifactId>
-			<version>1.0.0</version>
-		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
 		<dependency>
 			<groupId>org.jfree</groupId>
