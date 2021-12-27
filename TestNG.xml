@@ -12,12 +12,12 @@
 		<parameter name="browser" value="chrome" />
 		<!-- <groups> <run> <include name="demo" /> </run> </groups> -->
 		<classes>
-			<class
+			<!-- class
 				name="com.tbmJavaAutomationFramework.TestCases.TC_AddNewCustomer_003" />
 			<class
 				name="com.tbmJavaAutomationFramework.TestCases.TC_LoginDDT_02" />
 			<class
-				name="com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01" />
+				name="com.tbmJavaAutomationFramework.TestCases.TC_LoginTest_01" /-->
 			<class
 				name="com.tbmJavaAutomationFramework.TestCases.TC_EditCustomerDetails_04" />
 		</classes>
